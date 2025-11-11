@@ -7,7 +7,7 @@ const rl = createInterface({
   output: process.stdout,
 });
 
-rl.question("Masukan input ", (answer) => {
+rl.question("Masukan input (DD-MM-YYYY) ", (answer) => {
   //   dateConversion(answer);
   withoutPackage(answer);
   rl.close();
