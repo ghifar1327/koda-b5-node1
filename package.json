@@ -1,0 +1,17 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "ghifar",
+  "license": "ISC",
+  "description": "koda - project node",
+  "type": "module",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
