@@ -1,8 +1,6 @@
 import moment from "moment";
 
-
 export function dateConversion(input) {
-
   if (input.length === 8 || input.length === 10) {
     let parsedDate;
 
